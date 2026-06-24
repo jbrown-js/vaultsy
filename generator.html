@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaultsy - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>Vaultsy</h1>
+        <ul class="navbar">
+            <li class="nav-buttons"><a href="index.html">Home</a></li>
+            <li class="nav-buttons"><a href="generator.html">Generator</a></li>
+            <li class="nav-buttons"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="nav-underline"></div>
+    <main>
+        <div class="generator">
+            <p class="generate-text">Password:</p>
+            <input type="text" class="password" id="password" placeholder="Generated Password" readonly>
+            <button onclick="generatePassword()" class="generate-btn" id="generate-btn">Generate</button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
