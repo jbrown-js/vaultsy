@@ -1,0 +1,415 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Saira", sans-serif;
+}
+
+nav{
+    background:#C8C6C0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 60px;
+}
+
+.navbar{
+    display:flex;
+    gap:40px;
+    margin-left:0;
+}
+
+body {
+    background-color: #F5F4F1;
+}
+
+h1 {
+    color: #202020;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+    margin-left: 90px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: #202020;
+    font-size: 20px;
+}
+
+.nav-buttons a:hover {
+    color: #707070;
+    transition: 0.5s;
+}
+
+.nav-underline {
+    height: 2px;
+    width: 100%;
+    background-color: #202020;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+main img {
+    width: 500px;
+}
+
+.welcome-header {
+    font-size: 32px;
+}
+
+.welcome-text {
+    font-size: 24px;
+}
+
+.welcome-text a {
+    color: #202020;
+}
+
+.welcome-text a:hover {
+    color:#707070;
+    transition: 0.5s;
+}
+
+.welcome-button {
+    background-color: #C8C6C0;
+    border: 2px solid #202020;
+    padding: 15px;
+    position: relative;
+    top: 50px;
+    color: #202020;
+    text-decoration: none;
+}
+
+.welcome-button:hover {
+    background-color: #202020;
+    color: #C8C6C0;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.password {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #202020;
+    background: white;
+    margin-bottom: 35px;
+}
+
+.generate-btn {
+    background-color: #C8C6C0;
+    border: 2px solid #202020;
+    margin-top: 90px;
+    padding: 15px;
+    color: #202020;
+    font-size: 20px;
+}
+
+.generate-btn:hover {
+    background-color: #202020;
+    color: #C8C6C0;
+    transition: 0.5s;
+}
+
+.generate-text {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.extension,
+.generator {
+    width: 500px;
+    min-height: 500px;
+    background: #C8C6C0;
+    border: 2px solid #202020;
+    border-radius: 18px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 12px 25px rgba(0,0,0,.12);
+}
+
+.generator-main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+    max-width: 1300px;
+    margin: 70px auto;
+    padding: 0 40px;
+}
+
+.generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extension-content h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #202020;
+}
+
+.extension-content p {
+    line-height: 1.8;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.extension-content ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.extension-content li {
+    margin-bottom: 16px;
+    font-size: 18px;
+    position: relative;
+    padding-left: 28px;
+}
+
+.extension-content li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: green;
+    font-weight: bold;
+}
+
+.generate-btn,
+.install-btn,
+.welcome-button {
+    display: inline-block;
+    text-decoration: none;
+    background: #202020;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+
+
+.generate-btn:hover,
+.install-btn:hover,
+.welcome-button:hover {
+    background: #505050;
+    transform: translateY(-2px);
+}
+
+.manager-container {
+    display: flex;
+    justify-content: center;
+    padding: 70px 20px;
+}
+
+.manager-card {
+    width: 900px;
+    background: #C8C6C0;
+    border: 2px solid #202020;
+    border-radius: 18px;
+    padding: 50px;
+    box-shadow: 0 12px 25px rgba(0,0,0,.12);
+}
+
+.manager-card h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+    color: #202020;
+}
+
+.manager-intro {
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 45px;
+    color: #333;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.feature {
+    background: #F5F4F1;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.feature h3 {
+    margin-bottom: 12px;
+    color: #202020;
+}
+
+.feature p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.install-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #202020;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.install-btn:hover {
+    background: #505050;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 1024px) {
+
+    nav {
+        padding: 20px 30px;
+    }
+
+    .navbar {
+        gap: 40px;
+        margin-left: 30px;
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    main img {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .generator-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .extension,
+    .generator {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .manager-card {
+        width: 90%;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-left: 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .nav-underline {
+        display: none;
+    }
+
+    main {
+        padding: 30px 15px;
+    }
+
+    .welcome-header {
+        font-size: 26px;
+    }
+
+    .welcome-text {
+        font-size: 18px;
+    }
+
+    .welcome-button {
+        top: 20px;
+    }
+
+    main img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .generator-main {
+        padding: 20px;
+    }
+
+    .extension,
+    .generator {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .manager-card {
+        padding: 25px;
+        width: 100%;
+    }
+
+    .manager-card h2 {
+        font-size: 28px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .password {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    .generate-btn,
+    .install-btn,
+    .welcome-button {
+        width: 100%;
+        text-align: center;
+    }
+}
